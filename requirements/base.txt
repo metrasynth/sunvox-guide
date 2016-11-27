@@ -1,0 +1,5 @@
+numpy
+pygraphviz
+radiant-voices
+scipy
+sunvox-dll-python

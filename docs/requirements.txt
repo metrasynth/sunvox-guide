@@ -1,0 +1,8 @@
+plantweb
+sphinx>=1.3
+sphinx-rtd-theme
+
+radiant-voices
+sunvox-dll-python
+
+-e .
