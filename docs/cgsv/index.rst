@@ -1,15 +1,10 @@
-Contents
-========
+``cgsv`` companion module
+=========================
 
 ..  toctree::
     :maxdepth: 2
 
-    readme
-    cgsv/index
-    contributing
-    changelog
-    authors
-    license
+    installation
 
 
 Indices and tables
