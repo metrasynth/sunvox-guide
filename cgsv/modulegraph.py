@@ -16,6 +16,13 @@ hide methods
 """
 
 
+def cval(value):
+    if hasattr(value, 'name'):
+        return value.name
+    else:
+        return value
+
+
 class ModuleGraphDirective(Directive):
 
     has_content = True
@@ -60,7 +67,7 @@ class ModuleGraphDirective(Directive):
             uml_src += [
                 '{}({}, "{}", "{}") {{'.format(modgroup, modname,
                                                modtype, modtitle),
-                '\n'.join('{} : {}'.format(cname, getattr(module, cname))
+                '\n'.join('{} : {}'.format(cname, cval(getattr(module, cname)))
                           for cname in module.controllers),
                 '}',
             ]
