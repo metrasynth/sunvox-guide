@@ -36,6 +36,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.viewcode',
     'plantweb.directive',
+    'cgsv.directives',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
