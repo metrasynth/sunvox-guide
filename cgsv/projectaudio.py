@@ -62,7 +62,16 @@ class ProjectAudioDirective(Directive):
                 output[position:end_pos] = buffer[:copy_size]
                 position = end_pos
             process.kill()
-            # TODO: fadeout
+
+            # Clip start
+            output = output[start:length]
+
+            # Fade out
+            fader = np.linspace(
+                1.0, 0.0, fadeout, dtype=BufferedProcess.data_type)
+            fader = np.repeat(fader, 2).reshape((fadeout, 2))
+            output[-fadeout:] *= fader
+
             wavfile.write(filepath, freq, output)
 
         download_link = dedent("""

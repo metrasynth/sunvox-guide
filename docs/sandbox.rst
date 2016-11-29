@@ -52,7 +52,7 @@ Take a listen:
 ..  svprojectaudio:: sandbox
     :filename: project1
     :start: 0
-    :duration: 3
+    :duration: 5
     :fadeout: 1
 
 Finally, download a copy of the project or the synth:
