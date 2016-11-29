@@ -2,15 +2,15 @@ import os
 from textwrap import dedent
 
 from docutils.parsers.rst.directives import unchanged_required
-from sunvox.api import Slot
-from sunvox.buffered import BufferedProcess
 
 from .directive import Directive
 
 try:
     import numpy as np
     from scipy.io import wavfile
-except ImportError:
+    from sunvox.api import Slot
+    from sunvox.buffered import BufferedProcess
+except (ImportError, OSError):
     np = None
 
 
