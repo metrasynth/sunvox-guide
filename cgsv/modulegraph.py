@@ -59,6 +59,8 @@ class ModuleGraphDirective(Directive):
         if style == 'basic':
             uml_src += ['hide attributes']
         for module in modules:
+            if module is None:
+                continue
             modname = 'mod{:02X}'.format(module.index)
             modtitle = '[{:02X}] {}'.format(module.index, module.name)
             modtype = module.mtype
@@ -72,6 +74,8 @@ class ModuleGraphDirective(Directive):
             ]
         for dest, sources in connections.items():
             for src in sources:
+                if src == -1:
+                    continue
                 uml_src.append('mod{:02X} --> mod{:02X}'.format(src, dest))
         uml_src = '\n'.join(uml_src)
         uml_src = '..  uml::\n\n' + indent(uml_src, '    ')

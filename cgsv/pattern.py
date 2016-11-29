@@ -2,7 +2,7 @@ from collections import defaultdict
 
 from docutils.parsers.rst import Directive
 from docutils.parsers.rst.directives import unchanged_required
-from rv.api import Note, NOTECMD, Pattern
+from rv.api import Note, NOTECMD, Pattern, PatternClone
 
 
 def project_patterns_map():
@@ -28,14 +28,22 @@ class PatternDirective(Directive):
         p = env.file_projects[src_path]
         project = p[projname]
         pm = env.file_projects_modules[src_path]
-        mods = pm[projname]
-        pat = Pattern()
-        pat.x, pat.y = self.pattern_pos(self.options['pos'])
-        modmap = dict(self.module_map(self.options['map'], mods))
-        self.write_pattern(pat, self.content, modmap)
-        project += pat
         pp = env.file_projects_patterns[src_path]
-        pp[patname] = pat
+        if patname == '*':
+            # Register all project's patterns.
+            for pat_idx, pat in enumerate(project.patterns):
+                if pat is not None and not isinstance(pat, PatternClone):
+                    patname = (pat.name or 'pat_{}'.format(pat_idx))
+                    patname = patname.replace(' ', '_')
+                    pp[patname] = pat
+        else:
+            mods = pm[projname]
+            pat = Pattern()
+            pat.x, pat.y = self.pattern_pos(self.options['pos'])
+            modmap = dict(self.module_map(self.options['map'], mods))
+            self.write_pattern(pat, self.content, modmap)
+            project += pat
+            pp[patname] = pat
         return []
 
     def pattern_pos(self, src):
