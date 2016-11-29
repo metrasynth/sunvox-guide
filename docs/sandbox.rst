@@ -3,7 +3,7 @@ Sandbox
 =======
 
 ..  svproject:: sandbox
-    :name: Sandbox Project
+    :name: My Sandbox Project
 
 ..  svmodule:: sandbox.gen
     :type: Generator
@@ -58,5 +58,7 @@ Finally, download a copy of the project or the synth:
 
 ..  sunvoxfile:: sandbox
     :layout: auto
+    :filename: project1
 
 ..  sunsynthfile:: sandbox.gen
+    :filename: synth1

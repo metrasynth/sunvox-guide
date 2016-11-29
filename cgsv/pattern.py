@@ -33,6 +33,7 @@ class PatternDirective(Directive):
         pat.x, pat.y = self.pattern_pos(self.options['pos'])
         modmap = dict(self.module_map(self.options['map'], mods))
         self.write_pattern(pat, self.content, modmap)
+        project += pat
         pp = env.file_projects_patterns[src_path]
         pp[patname] = pat
         print(self)

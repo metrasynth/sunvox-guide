@@ -45,7 +45,6 @@ class ModuleGraphDirective(Directive):
         p = env.file_projects[src_path]
         project = p[projname]
         pm = env.file_projects_modules[src_path]
-        print(list(pm[projname]))
         mod = pm[projname][modname] if modname else None
         if depth is None:
             modules = project.modules
