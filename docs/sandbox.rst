@@ -50,6 +50,7 @@ Here's the pattern that we'll play:
 Take a listen:
 
 ..  svprojectaudio:: sandbox
+    :filename: project1
     :start: 0
     :duration: 3
     :fadeout: 1
