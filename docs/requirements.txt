@@ -1,6 +1,4 @@
-numpy
 plantweb
-scipy
 sphinx>=1.3
 sphinx-rtd-theme
 

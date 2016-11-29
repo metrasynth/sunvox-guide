@@ -62,5 +62,3 @@ docs/_build
 .bootstrap
 .appveyor.token
 *.bak
-
-/docs/_sunvox_files/
