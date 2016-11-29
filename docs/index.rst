@@ -5,6 +5,7 @@ Contents
     :maxdepth: 2
 
     readme
+    cookbook/index
     cgsv/index
     contributing
     changelog
