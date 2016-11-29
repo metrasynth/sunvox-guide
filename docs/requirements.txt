@@ -1,5 +1,4 @@
 plantweb
-https://github.com/pygraphviz/pygraphviz/archive/pygraphviz-1.4rc1.zip
 sphinx>=1.3
 sphinx-rtd-theme
 

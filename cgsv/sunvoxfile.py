@@ -27,8 +27,15 @@ class SunvoxFileDirective(Directive):
         p = env.file_projects[src_path]
         project = p[projname]
 
+        skip = False
         if layout == 'auto':
-            project.layout()
+            try:
+                import pygraphviz
+            except ImportError:
+                skip = True
+                pygraphviz = None
+            else:
+                project.layout()
 
         if not filename.endswith('.sunvox'):
             filename += '.sunvox'
@@ -37,9 +44,10 @@ class SunvoxFileDirective(Directive):
         os.makedirs(basedir, exist_ok=True)
         filepath = os.path.join(basedir, filename)
 
-        with open(filepath, 'wb+') as f:
-            project.write_to(f)
-            filesize = f.tell()
+        if not skip:
+            with open(filepath, 'wb+') as f:
+                project.write_to(f)
+                filesize = f.tell()
 
         download_link = dedent("""
         :download:`Download {} </_sunvox_files/{}>`
