@@ -83,11 +83,4 @@ class ModuleGraphDirective(Directive):
         node = nodes.Element()
         node.document = self.state.document
         self.state.nested_parse(uml, 0, node)
-        print(self)
-        print(self.state.document['source'])
-        print(self.arguments)
-        print(self.options)
-        print(self.content)
-        print(uml_src)
-        print()
         return list(node)

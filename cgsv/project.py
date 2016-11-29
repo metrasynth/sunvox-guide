@@ -27,11 +27,4 @@ class ProjectDirective(Directive):
         project = p[varname]
         if 'name' in self.options:
             project.name = self.options['name']
-        print(self)
-        print(self.state.document['source'])
-        print(self.arguments)
-        print(self.options)
-        print(self.content)
-        print(project)
-        print()
         return []

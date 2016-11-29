@@ -53,12 +53,4 @@ class SunvoxFileDirective(Directive):
         :download:`Download {} </_sunvox_files/{}>`
         """).format(project.name or 'Project', filename)
 
-        print(self)
-        print(self.state.document['source'])
-        print(self.arguments)
-        print(self.options)
-        print(self.content)
-        print('filesize', filesize, 'at', filepath)
-        print()
-
         return self._parse(download_link, '<sunvoxfile>')

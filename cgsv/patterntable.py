@@ -21,10 +21,4 @@ class PatternTableDirective(Directive):
         projname, patname = varname.split('.')
         pp = env.file_projects_patterns[src_path]
         pat = pp[patname]
-        print(self)
-        print(self.state.document['source'])
-        print(self.arguments)
-        print(self.options)
-        print(self.content)
-        print()
         return [literal_block('', pat.tabular_repr(style))]

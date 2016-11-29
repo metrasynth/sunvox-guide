@@ -78,11 +78,4 @@ class ProjectAudioDirective(Directive):
         :download:`Download Audio for {} </_sunvox_files/{}>`
         """).format(project.name or 'Project', filename)
 
-        print(self)
-        print(self.state.document['source'])
-        print(self.arguments)
-        print(self.options)
-        print(self.content)
-        print()
-
         return self._parse(download_link, '<svprojectaudio>')

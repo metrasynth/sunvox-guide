@@ -36,12 +36,6 @@ class PatternDirective(Directive):
         project += pat
         pp = env.file_projects_patterns[src_path]
         pp[patname] = pat
-        print(self)
-        print(self.state.document['source'])
-        print(self.arguments)
-        print(self.options)
-        print('\n'.join(self.content))
-        print(pat.tabular_repr())
         return []
 
     def pattern_pos(self, src):

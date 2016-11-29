@@ -44,10 +44,4 @@ class ModuleDirective(Directive):
         pm = env.file_projects_modules[src_path]
         mods = pm[projname]
         mods[modname] = mod
-        print(self)
-        print(self.state.document['source'])
-        print(self.arguments)
-        print(self.options)
-        print(self.content)
-        print()
         return []

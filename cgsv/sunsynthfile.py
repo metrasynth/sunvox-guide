@@ -49,12 +49,4 @@ class SunsynthFileDirective(Directive):
         :download:`Download {} </_sunvox_files/{}>`
         """).format(synth.module.name or synth.module.mtype, filename)
 
-        print(self)
-        print(self.state.document['source'])
-        print(self.arguments)
-        print(self.options)
-        print(self.content)
-        print('filesize', filesize, 'at', filepath)
-        print()
-
         return self._parse(download_link, '<sunsynthfile>')

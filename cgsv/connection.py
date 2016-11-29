@@ -25,10 +25,4 @@ class ConnectionDirective(Directive):
         else:
             dest = mods[self.options['dest']]
         source >> dest
-        print(self)
-        print(self.state.document['source'])
-        print(self.arguments)
-        print(self.options)
-        print(self.content)
-        print()
         return []
