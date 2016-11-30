@@ -1,16 +1,36 @@
+.. include:: ../README.rst
+
+
 Contents
 ========
 
-..  toctree::
-    :maxdepth: 2
+..  note::
 
-    readme
+    **[TBW]**
+      To be written.
+
+    **[WIP]**
+      Writing in progress.
+
+..  toctree::
+    :glob:
+    :maxdepth: 3
+
+    preface
+    introduction
+    getting-started/index
+    beginner/index
+    intermediate/index
+    advanced/index
     cookbook/index
-    cgsv/index
+    modules/index
+    note-effects/index
+    platforms/index
+    developers/index
     contributing
-    changelog
     authors
     planning/index
+    changelog
     license
 
 

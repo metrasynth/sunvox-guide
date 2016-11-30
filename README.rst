@@ -1,25 +1,9 @@
-Overview of the Complete Guide to SunVox
-========================================
-
-..  start-badges
-
-|buildstatus| |docs|
-
-.. |buildstatus| image:: https://img.shields.io/travis/metrasynth/sunvox-guide.svg?style=flat
-    :alt: build status
-    :scale: 100%
-    :target: https://travis-ci.org/metrasynth/sunvox-guide
-
-.. |docs| image:: https://readthedocs.org/projects/sunvox-guide/badge/?version=latest
-    :alt: Documentation Status
-    :scale: 100%
-    :target: https://sunvox-guide.readthedocs.io/en/latest/?badge=latest
-
-..  end-badges
+The Complete Guide to SunVox
+============================
 
 Part of the Metrasynth_ project.
 
-.. _Metrasynth: https://metrasynth.github.io/
+.. _Metrasynth: https://metrasynth.readthedocs.io/
 
 
 Freely-available book

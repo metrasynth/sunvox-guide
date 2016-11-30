@@ -12,7 +12,7 @@ Proposed Table of Contents
     - What is a tracker?
     - How to read this book
     - Conventions used in this book
-- Part 1: Getting Started
+- Getting Started
     - Installing SunVox
         - (page for each platform)
     - Configuring MIDI inputs (optional)
@@ -42,69 +42,94 @@ Proposed Table of Contents
     - Introduction to hex
         - How SunVox helps you
     - Creating an empty project
-- Part 2: Beginners
+- Beginners
     - Adding and connecting modules
     - Changing controller values
     - Creating a pattern in the timeline
     - Editing patterns
-    - Recording patterns
-    - Playback controls
+    - Adding note effects
+    - Recording notes to patterns
     - Moving patterns in the timeline
     - Changing the properties of a pattern
     - Exporting to WAV files
-    - Simple modules
-        - Amplifier
-        - Spectravoice
-        - Delay
-        - Distortion
-        - DrumSynth
-        - Echo
-        - EQ
-        - Input
-        - Kicker
-        - Pitch Shifter
-        - Reverb
-        - Vibrato
-        - Vorbis player
-        - Wave Shaper
-- Part 3: Intermediate
+- Intermediate
     - Creating your own template project
+    - Combining note effects
     - File management
     - Pattern management
     - Clipboards
-    - Intermediate modules
-        - MultiSynth
-        - Glide
-        - Analog Generator
-        - Compressor
-        - Feedback
-        - Filter
-        - FM
-        - Modulator
-        - Loop
-        - Sampler
-        - Vocal filter
-- Part 4: Advanced
+- Advanced
     - Mastering
         - Inside SunVox
         - Using external apps
     - Live performance
     - Tuning and microtonal music
-    - Advanced modules
+    - BUilding MetaModules
+        - Effects
+        - Synths
+        - Playing back patterns
+        - Switching input
+- Cookbook
+    - (convert forum posts to detailed examples)
+    - (analyze clever tricks from example songs and synths)
+- Module reference
+    - Synths
+        - Analog Generator
+        - DrumSynth
+        - FM
+        - Input
+        - Kicker
+        - Sampler
+        - Spectravoice
+        - Vorbis player
+    - Effects
+        - Amplifier
+        - Compressor
         - DC Blocker
-        - MetaModules
-            - Effects
-            - Synths
-            - Playing back patterns
-            - Switching input
-        - MultiCtl
+        - Delay
+        - Distortion
+        - Echo
+        - EQ
+        - Filter
         - Filter Pro
-        - GPIO
         - LFO
+        - Loop
+        - Modulator
+        - Pitch Shifter
+        - Reverb
+        - Vibrato
+        - Vocal filter
+        - Wave Shaper
+    - Misc
+        - Glide
+        - MultiSynth
+        - Feedback
+        - GPIO
+        - MetaModule
+        - MultiCtl
         - Pitch2ctl
         - Sound2ctl
         - Velocity2ctl
-- Part 5: Platform-specific features
+- Note effect reference
+    - 01, 02: Slide up, down
+    - 03: Slide to note
+    - 04: Vibrato
+    - 07, 09: Set sample offset
+    - 08: Arpeggio
+    - 0A: Slide velocity up/down
+    - 0F: Set playing speed
+    - 11, 12: Fineslide up, down
+    - 13, 14: Bypass/solo/mute
+    - 19: Re-trigger during line
+    - 1C: Cut note during line
+    - 1D: Delay start during line
+    - 1F: Set BPM
+    - 20: Note probability
+    - 21: Note probability (random velocity)
+    - 22, 23: Set controller to random value
+    - 30: Stop playing
+    - 40..5F: Delay event for line fraction
+- Platform-specific features
     - Linux
     - Windows
     - macOS
@@ -115,27 +140,24 @@ Proposed Table of Contents
     - Meego
     - Raspberry Pi
     - Windows CE
-- Cookbook
-    - (convert forum posts to detailed examples)
-    - (analyze clever tricks from example songs and synths)
-- Metrasynth
-    - What is Metrasynth?
-    - Solar Sails
-        - MetaModule Construction Kit
-        - Polyphonist
-        - VoxPlex
-- Syntorial
-    - What is Syntorial?
-    - Lesson 1: ...
-    - ...
 - Developers
     - Using SunVox DLL for playback
         - button-clicking game for several languages and platforms
     - Using Radiant Voices to read, modify, and write files
 - Appendices
-    - Brief introduction to music theory
+    - Introduction to music theory
+    - Introduction to sound design
     - Default keyboard shortcuts
     - SunVox community resources
+    - Metrasynth
+        - What is Metrasynth?
+        - Solar Sails
+            - MetaModule Construction Kit
+            - Polyphonist
+            - VoxPlex
+    - Syntorial reference
+        - What is Syntorial?
+        - Lesson 1: ...
 - Contributors
     - How to contribute
     - Editors

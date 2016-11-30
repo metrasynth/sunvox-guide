@@ -8,4 +8,4 @@ elsewhere in this book.
     :glob:
     :maxdepth: 2
 
-    *
+    cookbook/*
