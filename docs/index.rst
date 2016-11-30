@@ -10,6 +10,7 @@ Contents
     contributing
     changelog
     authors
+    planning/index
     license
 
 

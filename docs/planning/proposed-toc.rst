@@ -1,0 +1,147 @@
+==========================
+Proposed Table of Contents
+==========================
+
+(WORK IN PROGRESS)
+
+- Preface
+- Introduction
+    - Who is this book for?
+    - What is SunVox?
+    - What is a modular synthesizer?
+    - What is a tracker?
+    - How to read this book
+    - Conventions used in this book
+- Part 1: Getting Started
+    - Installing SunVox
+        - (page for each platform)
+    - Configuring MIDI inputs (optional)
+    - Your first sounds
+        - Selecting a module
+        - Playing notes using the on-screen keyboard
+        - Playing notes with a PC keyboard
+        - Playing notes with a MIDI controller
+    - Terminology
+        - Project
+        - Module
+        - Controller
+        - Connection
+        - Timeline
+        - Pattern
+        - Row
+        - Track
+        - Note
+        - Velocity
+        - Effect
+        - XX, YY, and XXYY values
+    - Navigating the Interface
+        - Keyboard
+        - Mouse
+        - Touch
+        - Multitouch
+    - Introduction to hex
+        - How SunVox helps you
+    - Creating an empty project
+- Part 2: Beginners
+    - Adding and connecting modules
+    - Changing controller values
+    - Creating a pattern in the timeline
+    - Editing patterns
+    - Recording patterns
+    - Playback controls
+    - Moving patterns in the timeline
+    - Changing the properties of a pattern
+    - Exporting to WAV files
+    - Simple modules
+        - Amplifier
+        - Spectravoice
+        - Delay
+        - Distortion
+        - DrumSynth
+        - Echo
+        - EQ
+        - Input
+        - Kicker
+        - Pitch Shifter
+        - Reverb
+        - Vibrato
+        - Vorbis player
+        - Wave Shaper
+- Part 3: Intermediate
+    - Creating your own template project
+    - File management
+    - Pattern management
+    - Clipboards
+    - Intermediate modules
+        - MultiSynth
+        - Glide
+        - Analog Generator
+        - Compressor
+        - Feedback
+        - Filter
+        - FM
+        - Modulator
+        - Loop
+        - Sampler
+        - Vocal filter
+- Part 4: Advanced
+    - Mastering
+        - Inside SunVox
+        - Using external apps
+    - Live performance
+    - Tuning and microtonal music
+    - Advanced modules
+        - DC Blocker
+        - MetaModules
+            - Effects
+            - Synths
+            - Playing back patterns
+            - Switching input
+        - MultiCtl
+        - Filter Pro
+        - GPIO
+        - LFO
+        - Pitch2ctl
+        - Sound2ctl
+        - Velocity2ctl
+- Part 5: Platform-specific features
+    - Linux
+    - Windows
+    - macOS
+    - iOS
+    - Android
+    - PalmOS
+    - Maemo
+    - Meego
+    - Raspberry Pi
+    - Windows CE
+- Cookbook
+    - (convert forum posts to detailed examples)
+    - (analyze clever tricks from example songs and synths)
+- Metrasynth
+    - What is Metrasynth?
+    - Solar Sails
+        - MetaModule Construction Kit
+        - Polyphonist
+        - VoxPlex
+- Syntorial
+    - What is Syntorial?
+    - Lesson 1: ...
+    - ...
+- Developers
+    - Using SunVox DLL for playback
+        - button-clicking game for several languages and platforms
+    - Using Radiant Voices to read, modify, and write files
+- Appendices
+    - Brief introduction to music theory
+    - Default keyboard shortcuts
+    - SunVox community resources
+- Contributors
+    - How to contribute
+    - Editors
+    - Authors
+    - Financial supporters
+    - Other contributors
+- Licensing
+    - The Complete Guide to SunVox
+    - ``cgsv`` Python package
