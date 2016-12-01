@@ -7,7 +7,7 @@ Intermediate techniques [TBW]
     :maxdepth: 2
 
     starting-templates
-    combining-effects
+    combining-note-effects
     file-management
     pattern-management
     clipboards
