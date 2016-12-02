@@ -2,9 +2,6 @@
 List of contributors
 ====================
 
-How to contribute
-=================
-
 Editors
 =======
 
