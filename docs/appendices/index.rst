@@ -6,9 +6,9 @@ Appendices [TBW]
     :glob:
     :maxdepth: 2
 
-    music-theory/index
-    sound-design/index
     default-keyboard-shortcuts
     community-resources
+    music-theory/index
+    sound-design/index
     metrasynth/index
     syntorial/index

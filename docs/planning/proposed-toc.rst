@@ -145,9 +145,9 @@ Proposed Table of Contents
         - button-clicking game for several languages and platforms
     - Using Radiant Voices to read, modify, and write files
 - Appendices
+    - Default keyboard shortcuts
     - Introduction to music theory
     - Introduction to sound design
-    - Default keyboard shortcuts
     - SunVox community resources
     - Metrasynth
         - What is Metrasynth?
