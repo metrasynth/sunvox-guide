@@ -51,6 +51,11 @@ Setting up the documentation builder
 2.  Clone your fork locally::
 
         git clone git@github.com:your_name_here/sunvox-guide
+        cd sunvox-guide
+
+3.  Perform one-time setup of third-party packages:
+
+        pip install -r requirements.txt -r docs/requirements.txt
 
 3.  Create a branch for local development::
 
@@ -58,7 +63,12 @@ Setting up the documentation builder
 
     Now you can make your changes locally.
 
-4.  Run this command to automatically rebuild documentation
+4.  Run this command to build documentation::
+
+        cd docs
+        make html
+
+    Run this command to automatically rebuild documentation
     every time you make changes::
 
         cd docs
@@ -76,7 +86,7 @@ Setting up the documentation builder
 
         git add .
         git commit -m "Your detailed description of your changes."
-        git push origin name-of-your-bugfix-or-feature
+        git push origin name-of-what-you-are-working-on
 
 7.  Submit a pull request through the GitHub website.
 
