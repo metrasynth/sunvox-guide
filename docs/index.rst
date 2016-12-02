@@ -24,6 +24,7 @@ Contents
     note-effects/index
     platforms/index
     developers/index
+    appendices/index
     contributing
     authors
     planning/index
