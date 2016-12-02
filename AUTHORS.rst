@@ -1,6 +1,6 @@
-============
-Contributors
-============
+====================
+List of contributors
+====================
 
 How to contribute
 =================
@@ -8,12 +8,12 @@ How to contribute
 Editors
 =======
 
-* `Matthew Scott <https://github.com/gldnspud>`__
+* `Matthew Scott <https://github.com/gldnspud>`__ (a.k.a. "Queries")
 
 Authors
 =======
 
-* `Matthew Scott <https://github.com/gldnspud>`__
+* Matthew Scott
 
 Financial supporters
 ====================
