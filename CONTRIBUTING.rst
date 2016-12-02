@@ -97,8 +97,19 @@ Setting up the documentation builder
 Pull Request Guidelines
 -----------------------
 
-If you need some code review or feedback while you're authoring or editing,
-just make the pull request and begin discussion.
+When you begin authoring a new section, or making a large change,
+please show others you are working on that section by doing the
+following:
+
+1.  In your branch, change the top-level heading to indicate ``[WIP]``
+    at the end.
+
+2.  Commit and push that change to GitHub.
+
+3.  Open a pull request for the branch.
+
+This will allow immediate discussion as the author needs it,
+as well as helping avoid duplicated work.
 
 Once you are finished, another editor will assist with proofreading
 and will merge the results into the official repository.
