@@ -5,6 +5,10 @@ How to contribute to this book [WIP]
 Contributions are welcome, and they are greatly appreciated! Every
 little bit helps, and credit will always be given.
 
+If you ever need assistance with the process of getting your work written
+and included in this book, please reach out through your favorite medium
+listed at :doc:`/appendices/community-resources`.
+
 We use GitHub_ to manage our workflow. If you plan on editing, authoring,
 or translating, please sign up there if you haven't already.
 
