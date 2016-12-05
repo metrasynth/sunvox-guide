@@ -5,12 +5,13 @@ List of contributors
 Editors
 =======
 
-* `Matthew Scott <https://github.com/gldnspud>`__ (a.k.a. "Queries")
+* `Matthew Scott <https://github.com/gldnspud>`__
 
 Authors
 =======
 
-* Matthew Scott
+* `Matthew Scott <https://github.com/gldnspud>`__
+* `Jan Koekepan <https://jankoekepan.bandcamp.com/>`__
 
 Translators
 ===========
