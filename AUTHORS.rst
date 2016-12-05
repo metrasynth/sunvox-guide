@@ -12,6 +12,11 @@ Authors
 
 * Matthew Scott
 
+Translators
+===========
+
+...
+
 Financial supporters
 ====================
 
