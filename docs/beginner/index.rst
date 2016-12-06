@@ -1,5 +1,5 @@
 =========================
-Beginner techniques [TBW]
+Beginner techniques [WIP]
 =========================
 
 ..  toctree::

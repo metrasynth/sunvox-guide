@@ -1,5 +1,5 @@
 ================
-Appendices [TBW]
+Appendices [WIP]
 ================
 
 ..  toctree::
@@ -7,6 +7,7 @@ Appendices [TBW]
     :maxdepth: 2
 
     default-keyboard-shortcuts
+    note-frequencies-periods
     community-resources
     music-theory/index
     sound-design/index
