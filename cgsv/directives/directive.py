@@ -14,3 +14,6 @@ class Directive(BaseDirective):
         node.document = self.state.document
         nested_parse_with_titles(self.state, result, node)
         return node.children
+
+    def run(self):
+        pass
