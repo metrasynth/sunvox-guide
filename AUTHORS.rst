@@ -13,17 +13,8 @@ Authors
 * `Matthew Scott <https://github.com/gldnspud>`__
 * `Jan Koekepan <https://jankoekepan.bandcamp.com/>`__
 
-Translators
-===========
+Reviewers
+=========
 
-...
-
-Financial supporters
-====================
-
-* Be the first!
-
-Other contributors
-==================
-
-* ...
+* `iaon <http://www.warmplace.ru/forum/memberlist.php?mode=viewprofile&u=7901>`__
+* `gigi <http://www.warmplace.ru/forum/memberlist.php?mode=viewprofile&u=7348>`__
