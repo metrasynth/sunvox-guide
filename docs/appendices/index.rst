@@ -7,7 +7,7 @@ Appendices [WIP]
     :maxdepth: 2
 
     default-keyboard-shortcuts
-    note-frequencies-periods
+    set-pitch-tuning-tables
     community-resources
     music-theory/index
     sound-design/index
