@@ -11,6 +11,10 @@ Standard tuning
 The built-in tuning used by standard SunVox notes is an
 equal temperament tuning, using a 440Hz A4 note.
 
+..  seealso::
+
+    * `"PR??" thread in SunVox forum <http://www.warmplace.ru/forum/viewtopic.php?f=3&t=2268#p7427>`__
+
 ====  ========
 Note  SP value
 ====  ========
