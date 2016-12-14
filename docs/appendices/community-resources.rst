@@ -43,3 +43,10 @@ IRC
 
 Slack
   https://warmcommunity-slack-signup.herokuapp.com/
+
+----
+
+..  rubric:: Contributors to this page
+
+Author(s)
+  Matthew Scott

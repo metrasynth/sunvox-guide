@@ -58,3 +58,10 @@ In general, the other options are for musicians who want to extract stems from
 a sunvox song so that they can apply another stage of mastering. If you use
 sunvox as your end-to-end musical solution, you probably won't need these.
 Just save one file, from Output, and show the world your music.
+
+----
+
+..  rubric:: Contributors to this page
+
+Author(s)
+  Jan Koekepan

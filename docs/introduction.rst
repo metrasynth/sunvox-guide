@@ -128,3 +128,10 @@ Conventions used in this book
 =============================
 
 (to be written)
+
+----
+
+..  rubric:: Contributors to this page
+
+Author(s)
+  Matthew Scott

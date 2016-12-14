@@ -23,3 +23,10 @@ right-click to get the menu.
 In the Pattern Properties menu, you can give the pattern a name
 (I like to make it something useful, like: Bassline A Major), change the
 pattern's length and the number of tracks, and alter the icon.
+
+----
+
+..  rubric:: Contributors to this page
+
+Author(s)
+  Jan Koekepan

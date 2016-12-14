@@ -28,3 +28,10 @@ This book is our gift to you, the reader. Whatever your skill level,
 we hope you will find delight in learning about SunVox!
 
 -- Matthew R. Scott, Editor
+
+----
+
+..  rubric:: Contributors to this page
+
+Author(s)
+  Matthew Scott

@@ -17,3 +17,10 @@ the music in them will play at the same time.
 Horizontal positioning of the pattern affects when in your music the sounds
 in that pattern will play. This is also why longer patterns are horizontally
 longer in the pattern display.
+
+----
+
+..  rubric:: Contributors to this page
+
+Author(s)
+  Jan Koekepan

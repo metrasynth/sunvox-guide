@@ -108,3 +108,10 @@ the kicker so that the reversed kick sounds a little different than
 the forward kick that plays immediately after.
 
 ..  svpatterntable:: revkick.kick_loop
+
+----
+
+..  rubric:: Contributors to this page
+
+Author(s)
+  Matthew Scott

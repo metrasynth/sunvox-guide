@@ -57,3 +57,10 @@ In the top pane, do you see the keyboard? It looks like a piano keyboard.
 Touch that, to hear your sound. Can you hear it echo? That means you did this
 correctly - this is the basic groundwork of adding modules to design your own
 sounds in sunvox.
+
+----
+
+..  rubric:: Contributors to this page
+
+Author(s)
+  Jan Koekepan
