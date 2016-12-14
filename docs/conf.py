@@ -55,8 +55,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'The Complete Guide to SunVox'
-copyright = '2016, Matthew Scott'
-author = 'Matthew Scott'
+copyright = '2016, Matthew Scott and contributors'
+author = 'Matthew Scott and contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
