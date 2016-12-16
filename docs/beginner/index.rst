@@ -6,6 +6,7 @@ Beginner techniques [WIP]
     :glob:
     :maxdepth: 2
 
+    hex-intro
     adding-and-connecting-modules
     changing-controller-values
     creating-patterns
