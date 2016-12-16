@@ -8,6 +8,7 @@ Getting Started [TBW]
 
     installing/index
     midi
+    color-theme
     first-sounds
     terminology
     navigation
