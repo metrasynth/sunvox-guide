@@ -7,9 +7,9 @@ Getting Started [TBW]
     :maxdepth: 2
 
     installing/index
-    midi
     color-theme
     first-sounds
+    midi
     terminology
     navigation
     empty-project
