@@ -11,5 +11,8 @@ Getting Started [TBW]
     first-sounds
     midi
     terminology
-    navigation
+    user-interface
     empty-project
+    loading-modules
+    saving-projects
+    loading-projects
