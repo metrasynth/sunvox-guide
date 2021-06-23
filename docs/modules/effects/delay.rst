@@ -9,4 +9,4 @@ Controller reference
 
 ..  autoclass:: rv.modules.delay::Delay.Channels
 
-..  autoclass:: rv.modules.delay::Delay.DelayUnits
+..  autoclass:: rv.modules.delay::Delay.DelayUnit

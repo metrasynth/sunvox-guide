@@ -5,6 +5,7 @@ from docutils import nodes
 from docutils.parsers.rst import Directive
 from docutils.parsers.rst.directives import unchanged
 from docutils.statemachine import StringList
+from rv.api import Project
 
 
 UML_FORMATTING = """
@@ -43,12 +44,15 @@ class ModuleGraphDirective(Directive):
         else:
             projname, modname = varname, None
         p = env.file_projects[src_path]
-        project = p[projname]
+        project: Project = p[projname]
         pm = env.file_projects_modules[src_path]
         mod = pm[projname][modname] if modname else None
         if depth is None:
             modules = project.modules
-            connections = project.module_connections
+            connections = {}
+            for dest in project.modules:
+                sources = dest.in_links
+                connections[dest.index] = sources
         elif int(depth) == 0:
             modules = [mod]
             connections = defaultdict(list)

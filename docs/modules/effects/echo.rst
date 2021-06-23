@@ -9,4 +9,4 @@ Controller reference
 
 ..  autoclass:: rv.modules.echo::Echo.Channels
 
-..  autoclass:: rv.modules.echo::Echo.DelayUnits
+..  autoclass:: rv.modules.echo::Echo.DelayUnit
