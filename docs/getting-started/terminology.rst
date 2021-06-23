@@ -7,6 +7,10 @@ Project
 
 A single file with a collection of modules with certain controller values and patterns arranged into the timeline.
 
+Module
+======
+
+An object that can either generate sound and note data, modify sound and note data, send controller values, or contain other modules.
 
 Controller
 ==========
