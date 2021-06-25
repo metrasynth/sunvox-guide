@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "sunvox-guide"
+version = "0.1.0"
+description = "Complete Guide to SunVox"
+authors = ["See AUTHORS.rst"]
+license = "Multiple"
+readme = "README.rst"
+documentation = "https://sunvox-guide.readthedocs.io/en/latest/"
+repository = "https://github.com/metrasynth/sunvox-guide"
+packages = [
+    { include = "cgsv" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+numpy = "^1.21.0"
+graphviz = "^0.16"
+radiant-voices = "^1.0.3"
+scipy = "^1.7.0"
+sunvox-dll-python = "^0.3.1"
+plantweb = "^1.2.1"
+Sphinx = "^4.0.2"
+sphinx-rtd-theme = "^0.5.2"
+attrs = "^21.2.0"
+logutils = "^0.3.5"
+hexdump = "^3.3"
+PyYAML = "^5.4.1"
+
+[tool.poetry.dev-dependencies]
+watchdog = {version = "^2.1.2", extras = ["watchmedo"]}
+py = "^1.10.0"
+pytest = "^6.2.4"
+pytest-watch = "^4.2.0"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-glob='*.rst' --doctest-modules"
+testpaths = "cgsv tests"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

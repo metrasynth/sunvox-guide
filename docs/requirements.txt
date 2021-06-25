@@ -1,8 +1,0 @@
-plantweb
-sphinx>=1.3
-sphinx-rtd-theme
-
--e git+https://github.com/metrasynth/radiant-voices#egg=radiant-voices
--e git+https://github.com/metrasynth/sunvox-dll-python#egg=sunvox-dll-python
-
--e .
