@@ -18,6 +18,7 @@ These are people who have written original material for this book.
 
 * `Matthew Scott <https://github.com/gldnspud>`__
 * `Jan Koekepan <https://jankoekepan.bandcamp.com/>`__
+* `Autumn Cheney <https://github.com/autumncheney/>`__
 
 Reviewers
 =========
